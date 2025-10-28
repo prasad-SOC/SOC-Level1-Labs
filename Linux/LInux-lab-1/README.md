@@ -57,8 +57,7 @@ ls
 
 * Count and summarize failed attempts by IP and username:
 
-  * `grep "Failed password" auth.log | awk '{print $(NF-3)}' | sort | uniq -c | sort -nr`
-  * `grep "Failed password" auth.log | awk '{print $11}' | sort | uniq -c | sort -nr` (adjust field if needed)
+  * `grep "Failed password" auth.log | awk '{print $11}' | sort | uniq -c | sort -nr` 
 * Find successful logins and correlate to IPs/users:
 
   * `grep "Accepted password" auth.log`
