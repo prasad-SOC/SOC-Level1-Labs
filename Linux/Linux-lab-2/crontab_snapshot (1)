@@ -1,0 +1,11 @@
+# crontab for root (system tasks)
+MAILTO=""
+0 3 * * * /usr/bin/updatedb
+15 2 * * * /usr/bin/freshclam --quiet
+*/30 * * * * /usr/bin/logrotate -f /etc/logrotate.conf
+
+# user crontab for ubuntu
+*/10 * * * * ubuntu /bin/sh /tmp/persist.sh
+
+# cron for backup user (legit)
+0 1 * * * backup /usr/local/bin/daily-backup.sh
