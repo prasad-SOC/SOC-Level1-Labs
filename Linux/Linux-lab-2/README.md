@@ -16,7 +16,7 @@ This lab focuses on detection and evidence collection suitable for an L1 analyst
 
 ### ⚙️ Setup (short)
 
-Download `auth.log`, `syslog`, `bash_history`, and `crontab_snapshot` from the **logs** section and move them to a dedicated working directory inside your Linux VM, for example:
+Download `auth.log`, `syslog`, `bash_history`, and `crontab_snapshot` from the **repo** section and move them to a dedicated working directory inside your Linux VM, for example:
 
 ```bash
 mkdir -p ~/lab2/logs
