@@ -1,0 +1,20 @@
+Starting Nmap 7.93 ( https://nmap.org ) at 2025-11-19 13:09 IST
+Nmap scan report for 192.168.1.10
+Host is up (0.0021s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3306/tcp open  mysql
+
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.10 - 4.11
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+
+Nmap done: 1 IP address (1 host up) scanned in 5.12 seconds

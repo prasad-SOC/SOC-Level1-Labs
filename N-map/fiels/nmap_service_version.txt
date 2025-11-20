@@ -1,0 +1,15 @@
+Starting Nmap 7.93 ( https://nmap.org ) at 2025-11-19 13:01 IST
+Nmap scan report for 192.168.1.10
+Host is up (0.0018s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE       VERSION
+22/tcp   open  ssh           OpenSSH 7.6p1 Ubuntu 4 (Ubuntu Linux; protocol 2.0)
+80/tcp   open  http          Apache httpd 2.4.29 ((Ubuntu))
+139/tcp  open  netbios-ssn   Samba smbd 3.X (workgroup: WORKGROUP)
+445/tcp  open  microsoft-ds  Samba smbd 4.7.6-Ubuntu
+3306/tcp open  mysql         MySQL 5.7.41-0ubuntu0.18.04.1
+
+MAC Address: 00:0C:29:5B:7A:12 (VMware, Inc.)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap done: 1 IP address (1 host up) scanned in 3.74 seconds
